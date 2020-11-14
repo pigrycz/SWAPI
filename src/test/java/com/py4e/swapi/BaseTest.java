@@ -6,7 +6,7 @@ import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import org.junit.jupiter.api.BeforeAll;
 
-public class Base {
+public class BaseTest {
     public static String BASE_URL =  "https://swapi.py4e.com/api/";
     public static String PEOPLE = "people/";
     public static String FILMS = "films/";

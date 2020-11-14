@@ -9,6 +9,5 @@
 
 /.idea/
 /target/
-/allure-results/
 
 .gitignore

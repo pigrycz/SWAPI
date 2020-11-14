@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 import static org.assertj.core.api.Assertions.*;
 
-public class GetPeople extends Base {
+public class GetPeopleTest extends BaseTest {
 
     @Test
     public void getAllPeople() {
@@ -83,6 +83,4 @@ public class GetPeople extends Base {
         assertThat(json.getList("results.name").get(0)).isEqualTo("Luke Skywalker");
         assertThat(json.getInt("count")).isEqualTo(1);
     }
-
-
 }

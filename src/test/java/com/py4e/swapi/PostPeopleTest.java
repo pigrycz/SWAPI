@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class PostPeople extends Base {
+public class PostPeopleTest extends BaseTest {
 
     @Test
     public void postPerson() {

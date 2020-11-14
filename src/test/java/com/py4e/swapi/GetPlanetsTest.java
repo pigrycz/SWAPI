@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 import static org.assertj.core.api.Assertions.*;
 
-public class GetPlanets extends Base {
+public class GetPlanetsTest extends BaseTest {
 
     @Test
     public void getAllPlanets() {
